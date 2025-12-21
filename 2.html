@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Social Media Starter (HTML Only)</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="app">
+    <!-- HEADER -->
+    <header>
+        <h1>Simple Social Media - Starter</h1>
+        <p>This is a starter. Finish the TODOs in comments to complete the page.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#create">Create</a>
+        <a href="#about">About</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML Docs</a>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <h2 id="home">Home</h2>
+    <p>Welcome! Below are a few posts. Your tasks are in comments.</p>
+
+    <!-- POSTS -->
+    <h3>Posts</h3>
+    <div class="post">
+        <h4>John Smith</h4>
+        <p>Hello! This is my first post in this class.</p>
+    </div>
+
+    <div class="post">
+        <h4>Mary Johnson</h4>
+        <p>HTML is clear once you learn the basic building blocks.</p>
+    </div>
+
+    <div class="post">
+        <h4>Alex Brown</h4>
+        <p>Next, I want to try adding styles with CSS.</p>
+    </div>
+
+    <!-- CREATE SECTION -->
+    <h2 id="create">Create</h2>
+    <p>Complete the form below so it could be used to create a new post.</p>
+
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+
+        <label for="message">Your Post:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your post..." required></textarea>
+
+        <button type="submit">Post</button>
+    </form>
+
+    <!-- ABOUT SECTION -->
+    <h2 id="about">About</h2>
+    <p>This mini app is for practicing containers, links, and forms with pure HTML.</p>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2024 Web Fundamentals</p>
+    </footer>
+</div>
+</body>
+</html>
